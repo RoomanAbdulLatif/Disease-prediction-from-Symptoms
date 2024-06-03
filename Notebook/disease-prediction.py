@@ -106,8 +106,8 @@ print(cols)
 # Create a new dataframe to save OHE labels
 df_ohe = pd.DataFrame(columns = cols)
 
-print(df_ohe.head())
-for i in range(len(onehot_encoded)):
-    df_ohe.loc[i] = onehot_encoded[i]
-print(df_ohe.head())
+# print(df_ohe.head())
+# for i in range(len(onehot_encoded)):
+#     df_ohe.loc[i] = onehot_encoded[i]
+# print(df_ohe.head())
 
